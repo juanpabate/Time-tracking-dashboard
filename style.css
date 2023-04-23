@@ -170,8 +170,15 @@ body{
     color: var(--White);
 }
 @media (min-width: 1200px) {
+    body{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        gap: 30px;
+    }
     .main-container{
-        margin: 13rem auto;
         width: 90%;
         display: flex;
         justify-content: center;
