@@ -150,7 +150,6 @@ const dibujarElementos= (tiempo)=>{
           iconName= "self-care"
         }else {
           iconName= element[1].toLowerCase();
-          console.log(iconName);
         }
 
         container.innerHTML += (`<div class="task-card card">
